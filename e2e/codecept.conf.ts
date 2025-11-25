@@ -8,7 +8,7 @@ require('dotenv').config();
 setCommonPlugins();
 
 export const config: CodeceptJS.MainConfig = {
-  tests: './*_test.ts',
+  tests: './tests/**/*_test.ts',
   output: './output',
   helpers: {
     Playwright: {
@@ -18,7 +18,8 @@ export const config: CodeceptJS.MainConfig = {
     }
   },
   include: {
-    I: './steps_file'
+    I: './steps_file',
+    utils: './utils/index.ts'
   },
   translation: "en-US",
   name: 'e2e',
