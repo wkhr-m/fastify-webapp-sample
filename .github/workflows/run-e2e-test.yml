@@ -42,10 +42,10 @@ jobs:
           path: gh-pages
 
       - name: Build test report
-        uses: simple-elf/allure-report-action@v1.7
+        uses: simple-elf/allure-report-action@v1.13
         if: always()
         with:
-          gh-pages: gh-pages
+          gh_pages: gh-pages
           allure_history: allure-history
           allure_results: e2e/allure-results
 
