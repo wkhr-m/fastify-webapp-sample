@@ -46,7 +46,7 @@ jobs:
         if: always()
         with:
           gh-pages: gh-pages
-          allure_history: allure-hisotry
+          allure_history: allure-history
           allure_results: e2e/allure-results
 
       - name: Publish test report
