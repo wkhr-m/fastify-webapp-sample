@@ -21,5 +21,15 @@ export const config: CodeceptJS.MainConfig = {
   },
   translation: "en-US",
   name: 'e2e',
-  fullPromiseBased: false
+  plugins: {
+    allure: {
+      enabled: true,
+      require: "allure-codeceptjs"
+    },
+    stepByStepReport: {
+      enabled: true,
+      screenshotsForAllureReport: true,
+      deleteSuccessful: false
+    }
+  }
 }
