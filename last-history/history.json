@@ -1,0 +1,1 @@
+{"10eea1ee6e414c3e568e42fa676b208d":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"d153b3f54ac18760","reportUrl":"https://wkhr-m.github.io/fastify-webapp-sample/4/#testresult/d153b3f54ac18760","status":"passed","time":{"start":1764051374493,"stop":1764051378803,"duration":4310}}]}}
